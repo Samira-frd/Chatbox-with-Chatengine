@@ -1,0 +1,66 @@
+:root{
+    --pink: #f7c5d5;
+    --green: #1B718A;
+    --yellow: #F1931B;
+}
+
+.loginPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCard{
+    border: 1px solid silver;
+    background-color: #fff;
+    padding: 20px 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.loginCard h2{
+    color: rgb(93, 93, 93);
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--green);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 1px 3px 8px grey;
+    border: 1px dashed grey;
+    cursor: pointer;
+}
+
+.button img{
+    width: 45px;
+    background-color: #fff;
+    margin: 10px 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1px 1px 3px var(--pink), -1px -1px 3px var(--pink);
+}
+
+.button span{
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+}
